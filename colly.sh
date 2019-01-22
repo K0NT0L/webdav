@@ -25,7 +25,7 @@ echo '\033[34;1mTools Webdav Version 1.1'
 echo '\033[32;1mAuthor By Star:v'
 echo '\033[38;1mFrom : SAD Cyber Team'
 echo ""
-echo '____________________________________________'
+echo '$white ____________________________________________'
 sleep 2 
 echo ""
 read -p "Masukkan web korban  ~# " target;
