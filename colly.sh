@@ -1,10 +1,10 @@
  #!/bin/bash
 
-'''
+
 # Please Don't recode =(
 # Hae Mastah '-' mau ngapain? 
 # Author : Star'-'
-'''
+
 
 purple='\033[35;1m'
 cyan='\033[36;1m'
