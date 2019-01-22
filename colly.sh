@@ -14,7 +14,7 @@ red='\033[1;91m'
 blue='\033[34;1m'
 green='\033[32;1m'
 
-webdav ='
+webdav='''
 $red    ┌──────────────────┐;
 $yellow │▌ ▌▛▀▘▛▀▖▛▀▖ ▞▀▖▌ ▌│;
 $green  │▌▖▌▙▄ ▙▄▘▌ ▌ ▙▄▌▚▗▘│;
@@ -23,7 +23,8 @@ $purple │▘ ▘▀▀▘▀▀ ▀▀  ▘ ▘   ▘ │;
 $blue   └──────────────────;
 $green Tools Webdav Version 1.1;
 $white Author By Star:v;
-$red From : SAD Cyber Team;'
+$red From : SAD Cyber Team;
+'''
 
 
 termux-setup-storage
