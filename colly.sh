@@ -14,16 +14,11 @@ red='\033[1;91m'
 blue='\033[34;1m'
 green='\033[32;1m'
 
-
+clear 
 termux-setup-storage
 clear
 clear
-echo '\033[1;91m ┌──────────────────┐'
-echo '\033[33;1m│▌ ▌▛▀▘▛▀▖▛▀▖ ▞▀▖▌ ▌│'
-echo '\033[34;1m│▌▖▌▙▄ ▙▄▘▌ ▌ ▙▄▌▚▗▘│'
-echo '\033[32;1m│▙▚▌▌  ▌ ▌ ▌ ▌ ▌ ▌ ▝▞ │'
-echo '\033[35;1m│▘ ▘▀▀▘▀▀ ▀▀  ▘ ▘   ▘ │'
-echo '\033[36;1m└──────────────────'
+toilet -f smblock --filter border:metal 'WEBDAV'
 echo '\033[34;1mTools Webdav Version 1.1'
 echo '\033[32;1mAuthor By Star:v'
 echo '\033[38;1mFrom : SAD Cyber Team'
