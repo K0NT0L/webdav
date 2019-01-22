@@ -15,32 +15,23 @@ blue='\033[34;1m'
 green='\033[32;1m'
 
 webdav='''
-$red    ┌──────────────────┐;
-$yellow │▌ ▌▛▀▘▛▀▖▛▀▖ ▞▀▖▌ ▌│;
-$green  │▌▖▌▙▄ ▙▄▘▌ ▌ ▙▄▌▚▗▘│;
-$cyan   │▙▚▌▌  ▌ ▌ ▌ ▌ ▌ ▌ ▝▞ │;
-$purple │▘ ▘▀▀▘▀▀ ▀▀  ▘ ▘   ▘ │;
-$blue   └──────────────────;
-$green Tools Webdav Version 1.1;
-$white Author By Star:v;
-$red From : SAD Cyber Team;
+\033[1;91m ┌──────────────────┐
+\033[33;1m│▌ ▌▛▀▘▛▀▖▛▀▖ ▞▀▖▌ ▌│
+\033[34;1m│▌▖▌▙▄ ▙▄▘▌ ▌ ▙▄▌▚▗▘│
+\033[32;1m│▙▚▌▌  ▌ ▌ ▌ ▌ ▌ ▌ ▝▞ │
+\033[35;1m│▘ ▘▀▀▘▀▀ ▀▀  ▘ ▘   ▘ │
+\033[36;1m└──────────────────
+\033[34;1mTools Webdav Version 1.1
+\033[32;1mAuthor By Star:v
+\033[3From : SAD Cyber Team
 '''
 
 
 termux-setup-storage
 clear
 clear
-
 echo $webdav
-echo ""
-echo "==============================" | lolcat
-echo ""
-echo "$green Created By Me : StarFuckTak'-'"
-echo "$red Contact : 0895422939836" 
-echo "$purple S.A.D Cyber Team "
-echo ""
-echo "==============================" | lolcat
-echo ""
+sleep 2 
 echo ""
 read -p "Masukkan web korban  ~# " target;
 read -p "Nama script lu coeg  ~# "  sc;
